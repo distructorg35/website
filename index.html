@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <button class="mode-toggle" onclick="toggleMode()">Switch Mode</button>
+        <input class="search-bar" type="search" placeholder="Search articles..." oninput="searchArticles(this.value)">
+        Homepage
+    </div>
+
+    <div class="categories-container">
+        <div class="categories" id="categories"></div>
+    </div>
+
+    <div class="container" id="articles"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
